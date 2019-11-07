@@ -19,7 +19,7 @@ if (hair === 'no'){
 
 
 // second guess question
-var eyes = prompt('Is my eye color blue?');
+var eyes = prompt('Is my eye color blue?').toLowerCase();
 console.log('color of eyes', eyes);
 
 if (eyes === 'yes'){
@@ -31,7 +31,7 @@ if (eyes === 'no'){
 }
 
 //third guess question
-var dog = prompt('Do I have a dog?');
+var dog = prompt('Do I have a dog?').toLowerCase();
 console.log('if i have a dog', dog);
 
 if (dog === 'yes'){
@@ -43,7 +43,7 @@ if (dog === 'no'){
 }
 
 //fourth guess question
-var kid = prompt('Do I have a kid?');
+var kid = prompt('Do I have a kid?').toLowerCase();
 console.log('if i have a kid', kid);
 
 if (kid === 'yes'){
@@ -56,7 +56,7 @@ if (kid === 'no'){
 
 //fifth guess question 
 
-var SDE = prompt('Am I a SDE?');
+var SDE = prompt('Am I a SDE?').toLowerCase();
 console.log('if i am a SDE', SDE);
 
 if (SDE === 'yes') {
@@ -67,3 +67,5 @@ if (SDE === 'no'){
     alert('I just became a SDE since I learned coding from code fellows') 
 }
 
+
+alert('Thank you for visiting my page '+ user + ' ! See you next time!');
